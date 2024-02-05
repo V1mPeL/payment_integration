@@ -1,5 +1,5 @@
 import crypto from 'crypto';
-import { utf8_to_b64 } from '../utils';
+import { utf8_to_b64 } from '../utils/utils';
 
 interface LiqPayPaymentProps {
   amount: string;
